@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+package-lock.json
+5gServiceDev.rar
+dev/mail/
+dev/image/
+app/image/
+app/mail/
+app/fonts/
+dev/fonts/
