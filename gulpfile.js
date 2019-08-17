@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 var destpath = {
@@ -26,6 +27,10 @@ gulp.task('buildCss', function () {
     console.log('Работа с css файлами!');
     return gulp.src(csspath)
         .pipe(concat('main.min.css'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(cleanCSS())
         .pipe(gulp.dest(destpath.local + 'css'))
         .pipe(gulp.dest(destpath.web + 'css'));
@@ -65,6 +70,10 @@ gulp.task('css', function () {
     console.log('Работа с css файлами!');
     return gulp.src(csspath)
         .pipe(concat('main.min.css'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(cleanCSS())
         .pipe(gulp.dest(destpath.web + 'css'))
         .pipe(browserSync.stream());
