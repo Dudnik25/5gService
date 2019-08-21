@@ -154,6 +154,10 @@ header {
     align-items: center;
 }
 
+.menu nav ul li {
+    margin: 0 4px;
+}
+
 .menu nav ul li a {
     display: block;
     padding: 10px 15px 10px 15px;
@@ -315,6 +319,10 @@ header {
     align-items: flex-start;
 }
 
+#about .items:last-child {
+    margin-bottom: 0;
+}
+
 #about .items .item {
     width: 320px;
     margin: 0 20px;
@@ -445,7 +453,7 @@ header {
     flex: 1 1 auto;
     font-size: 0.9em;
     text-align: left;
-    line-height: 1.1em;
+    line-height: 1.3em;
     border-top: 1px solid rgba(0,191,255,.8);
     padding: 10px;
 }

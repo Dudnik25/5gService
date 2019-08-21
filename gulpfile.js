@@ -19,6 +19,7 @@ var jspath = [
 
 var csspath = [
     'dev/css/normalize.css',
+    'dev/css/all.min.css',
     'dev/css/animate.min.css',
     'dev/css/style.css'
 ];

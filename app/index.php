@@ -5,7 +5,6 @@
     <meta name="description" content="5G-Сервис | Ремонт цифровой техники в Саратове" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link href="css/main.min.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
     <title>5G-Сервис | Ремонт цифровой техники</title>
@@ -653,7 +652,7 @@
         <div class="container">
             <h2>Отзывы наших клиентов</h2>
             <div class="coments-content">
-                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="300ms">
+                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                     <div class="image"><img src="image/coments1.jpg" alt="Сергей"></div>
                     <h3>Сергей</h3>
                         <p>
@@ -663,7 +662,7 @@
                             не прогадал, починили как новенький, Спасибо!
                         </p>
                 </div>
-                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="300ms">
+                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                     <div class="image"><img src="image/coments2.jpg" alt="Наталья"></div>
                     <h3>Наталья</h3>
                         <p>
@@ -672,7 +671,7 @@
                             Такая оперативность порадовала.
                         </p>
                 </div>
-                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="300ms">
+                <div class="coments-item wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                     <div class="image"><img src="image/coments3.jpg" alt="Михаил"></div>
                     <h3>Михаил</h3>
                         <p>
@@ -691,7 +690,7 @@
         </div>
     </section>
     <section id="contacts">
-        <div class="form wow fadeInLeft" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="form wow fadeInLeft" data-wow-duration="400ms" data-wow-delay="200ms">
             <form action="mail/mail.php" method="post">
                 <label class="title">Сегодня мы дарим</label>
                 <label>скидку 7%</label>
@@ -704,7 +703,7 @@
                 <div class="form_massage"></div>
             </form>
         </div>
-        <div class="map wow fadeInRight" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="map wow fadeInRight" data-wow-duration="400ms" data-wow-delay="200ms">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.951193917002!2d46.02493661577093!3d51.53245500553947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4114c7b8ab644017%3A0x7d9303259fc5d8ab!2z0YPQuy4g0K_QsdC70L7Rh9C60L7QstCwLCAxOSwg0KHQsNGA0LDRgtC-0LIsINCh0LDRgNCw0YLQvtCy0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCA0MTAwMjk!5e0!3m2!1sru!2sua!4v1563641814101!5m2!1sru!2sua" style="border:0" allowfullscreen></iframe>
         </div>
     </section>
