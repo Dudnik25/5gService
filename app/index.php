@@ -97,13 +97,13 @@
                     <button id="smartphone" class="table-menu active">Смартфон</button>
                     <button id="tablet" class="table-menu">Планшет</button>
                     <button id="PC" class="table-menu">Ноутбук и ПК</button>
-                    <button id="IPhone-battery" class="table-menu">Замена аккумуляторов iPhone</button>
+                    <button id="IPhone-battery" class="table-menu">Замена аккумулятора</button>
                     <button id="IPhone-display" class="table-menu">Замена дисплея iPhone</button>
                 </div>
 
                 <div id="table-smartphone" class="table animated">
                     <div class="table-row">
-                        <div class="table-cell table-title">Ремонт <i>Смартфон </i></div>
+                        <div class="table-cell table-title">Ремонт</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>
@@ -173,7 +173,7 @@
 
                 <div id="table-tablet" class="table animated" style="display: none">
                     <div class="table-row">
-                        <div class="table-cell table-title">Ремонт <i>Планшет </i></div>
+                        <div class="table-cell table-title">Ремонт</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>
@@ -255,7 +255,7 @@
                 <!-- -->
                 <div id="table-PC" class="table animated" style="display: none">
                     <div class="table-row">
-                        <div class="table-cell table-title">Ремонт <i>Ноутбук И ПК </i></div>
+                        <div class="table-cell table-title">Ремонт ноутбуков и ПК</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>
@@ -372,7 +372,7 @@
 
                 <div id="table-IPhone-battery" class="table animated" style="display: none">
                     <div class="table-row">
-                        <div class="table-cell table-title">Замена аккумуляторов <i>iPhone</i></div>
+                        <div class="table-cell table-title">Замена аккумулятора iPhone</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>
@@ -471,7 +471,7 @@
 
                 <div id="table-IPhone-display" class="table animated" style="display: none">
                     <div class="table-row">
-                        <div class="table-cell table-title">Замена дисплея <i>iPhone</i></div>
+                        <div class="table-cell table-title">Замена дисплея iPhone</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>
