@@ -8,6 +8,20 @@
     <link href="css/main.min.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
     <title>5G-Сервис | Ремонт цифровой техники</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(55070050, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/55070050" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
     <header>
@@ -97,7 +111,7 @@
                     <button id="smartphone" class="table-menu active">Смартфон</button>
                     <button id="tablet" class="table-menu">Планшет</button>
                     <button id="PC" class="table-menu">Ноутбук и ПК</button>
-                    <button id="IPhone-battery" class="table-menu">Замена аккумулятора</button>
+                    <button id="IPhone-battery" class="table-menu">Замена аккумулятора iPhone</button>
                     <button id="IPhone-display" class="table-menu">Замена дисплея iPhone</button>
                 </div>
 
@@ -372,7 +386,7 @@
 
                 <div id="table-IPhone-battery" class="table animated" style="display: none">
                     <div class="table-row">
-                        <div class="table-cell table-title">Замена аккумулятора iPhone</div>
+                        <div class="table-cell table-title">Замена аккумулятора</div>
                         <div class="table-cell table-title table-mobile">Устройство</div>
                         <div class="table-cell table-title table-mobile">Время</div>
                         <div class="table-cell table-title">Стоимость</div>

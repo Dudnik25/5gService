@@ -396,6 +396,10 @@ header {
     border: 1px solid #000;
 }
 
+.table-row:nth-child(2n - 1) {
+    background: #c5e4ff;
+}
+
 #services .table .table-row:hover {
     background-color: rgba(0,0,0,.2);
     cursor: pointer;
