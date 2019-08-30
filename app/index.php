@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
     <title>5G-Сервис | Ремонт цифровой техники</title>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script async type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -730,7 +730,7 @@
     </div>
     <div id="popup" style="display: none;">
         <div class="popup_form">
-            <div id="popup_close">X</div>
+            <div id="popup_close">&#10006;</div>
             <form action="mail/mail.php" method="post">
                 <input name="name" placeholder="Ваше Имя" required>
                 <input type="tel" class="form_phone" name="phone" placeholder="Номер телефона" required>

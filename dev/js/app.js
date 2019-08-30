@@ -87,6 +87,7 @@ $("document").ready(function($) {
 
     //Модалка с формой
     $("#popup_close, #popup__toggle").on("click", function () {
+        $("body").toggleClass('scroll-lock');
         $("#popup").toggle(100);
     });
 
